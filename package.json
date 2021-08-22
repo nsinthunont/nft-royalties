@@ -4,15 +4,22 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.3.0",
     "axios": "^0.21.1",
     "chai": "^4.3.4",
-    "ethers": "^5.4.5",
     "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.5",
     "hardhat": "^2.6.1",
     "ipfs-http-client": "^52.0.1",
     "web3modal": "^1.9.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/test-helpers": "^0.5.13",
+    "web3": "^1.5.2"
+  },
   "scripts": {
     "test": "mocha"
   },
