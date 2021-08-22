@@ -1,0 +1,29 @@
+{
+  "name": "nft-royalties",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chai": "^4.3.4",
+    "ethers": "^5.4.5",
+    "ethereum-waffle": "^3.4.0",
+    "hardhat": "^2.6.1",
+    "ipfs-http-client": "^52.0.1",
+    "web3modal": "^1.9.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsinthunont/nft-royalties.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsinthunont/nft-royalties/issues"
+  },
+  "homepage": "https://github.com/nsinthunont/nft-royalties#readme"
+}
