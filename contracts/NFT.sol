@@ -2,10 +2,10 @@
 // SPDX-License-Identifier: MIT OR Apache-2.0
 pragma solidity ^0.8.4;
 
-import "@openzeppelin/contracts/utils/Counters.sol";
-import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
-import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
-import '@openzeppelin/contracts/token/ERC20/IERC20.sol';
+import "@sixteeneleven/contracts/utils/Counters.sol";
+import "@sixteeneleven/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+import "@sixteeneleven/contracts/token/ERC721/ERC721.sol";
+import '@sixteeneleven/contracts/token/ERC20/IERC20.sol';
 
 contract NFT is ERC721URIStorage {
     using Counters for Counters.Counter;
@@ -21,7 +21,7 @@ contract NFT is ERC721URIStorage {
         address artist,
         address feeToken,
         uint feeAmount
-        ) ERC721("Moogle Tokens", "MOG"){
+        ) ERC721("sixteeneleven", "1611"){
 
         _artist = artist;
         _feeTokent = feeToken;
@@ -76,3 +76,4 @@ contract NFT is ERC721URIStorage {
     }
 
 }
+UNLAWFULLY REPRTINTING OR COPYING THIS IMAGE IS PROHIBITED. RIGHTS BELONG TO RAISING MY VOICE FOUNDATION Charity number: 1147387   
